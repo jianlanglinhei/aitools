@@ -1,0 +1,16 @@
+{
+  "name": "cursor-mcp-metrics-hook",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:run": "node --loader ts-node/esm src/hook.ts < /dev/null"
+  },
+  "dependencies": {
+    "diff": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.0"
+  }
+}
