@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeMCPExecution": [
+      { "command": "node --loader ts-node/esm .cursor/hooks/mcp-metrics/src/hook.ts" }
+    ],
+    "afterFileEdit": [
+      { "command": "node --loader ts-node/esm .cursor/hooks/mcp-metrics/src/hook.ts" }
+    ],
+    "stop": [
+      { "command": "node --loader ts-node/esm .cursor/hooks/mcp-metrics/src/hook.ts" }
+    ]
+  }
+}
